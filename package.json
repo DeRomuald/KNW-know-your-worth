@@ -1,0 +1,30 @@
+{
+  "name": "knw-know-your-worth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "registration.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "nodemonConfig": {
+    "ignore": ["registration.js"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeRomuald/KNW-know-your-worth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeRomuald/KNW-know-your-worth/issues"
+  },
+  "homepage": "https://github.com/DeRomuald/KNW-know-your-worth#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
