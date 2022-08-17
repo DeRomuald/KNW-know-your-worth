@@ -2,8 +2,7 @@ import React from "react";
 import styled from "styled-components";
 // Assets
 import ContactImg1 from "../../assets/img/contact-1.png";
-import ContactImg2 from "../../assets/img/contact-2.jpeg";
-import ContactImg3 from "../../assets/img/contact-3.png";
+
 
 export default function Contact() {
   return (
@@ -12,10 +11,9 @@ export default function Contact() {
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Let's get in touch</h1>
-            <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+            <p className="font20">
+              Have Questions Reach Out, our team is happy to help
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
             </p>
           </HeaderInfo>
           <div className="row" style={{ paddingBottom: "30px" }}>
@@ -38,13 +36,9 @@ export default function Contact() {
                 <ContactImgBox>
                   <img src={ContactImg1} alt="office" className="radius6" />
                 </ContactImgBox>
-                <ContactImgBox>
-                  <img src={ContactImg2} alt="office" className="radius6" />
-                </ContactImgBox>
               </div>
               <div style={{ width: "50%" }}>
                 <div style={{ marginTop: "100px" }}>
-                  <img src={ContactImg3} alt="office" className="radius6" />
                 </div>
               </div>
             </div>
